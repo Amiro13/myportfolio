@@ -1,0 +1,347 @@
+@media only screen and (max-width: 820%){}
+html{
+    background-color: #000;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-color:#0d0d0d;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Bakbak One', cursive, sans-serif;
+}
+
+#Navbar{
+    top: 0;/*pour que la navbar se colle en haut*/
+    width: 100%; /* pour la navbar prenne toute la largerur*/
+    display: flex; /* pour que tout saligne ca*/
+    flex-direction: row;
+    position: relative;
+    height: 15vh;
+    margin: 0%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.amir{
+    color: white;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+   font-size: 2em;
+   font-weight: 400;
+   width: 10%;
+   margin-left: 5%;
+   margin-top: 2%;
+}
+
+.list{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#nav-list{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    flex-direction: row;
+    position: relative;
+}
+
+.section{
+    height: 100vh;
+    color: white;
+    margin-top: 0%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+    padding-right: 40%;
+    padding-left: 10%;
+    margin-bottom: 6%;
+}
+
+span{
+    color: #0cce6b;
+}
+
+.button-styled{
+    margin-bottom: 5%;
+    width: 100%;
+    margin-right: 10%;
+}
+
+.contact-styled {
+    border: 0;
+    line-height: 2;
+    padding: 0 70px;
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+    border-radius: 100px;
+    background-color:#0cce6b;
+    font-family: 'Bakbak One', cursive, sans-serif;
+    margin-left: 5%;
+    flex-direction: row;
+}
+
+.features-style{
+    line-height: 2;
+    padding: 0 40px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 100px;
+    background-color: #000;
+    font-family: 'Bakbak One', cursive, sans-serif;
+    margin-left: 35px;
+    flex-direction: row;  
+    border-color: #0cce6b;
+}
+
+.englobe{
+    width: 100%;
+    display: flex;
+}
+
+.bio{
+    width: 70%;
+    margin-left: -5%;
+}
+
+h3{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-left: 10%;
+    margin-top: 10%;
+    margin-left: -3%;
+    width: 100%;
+}
+
+.kratos{
+    width: 60%;
+    display: block;
+    flex-direction: row;
+    object-fit: contain;
+}
+.bio-img{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    border-radius: 100%;
+    margin-top: -3%;
+    margin-left: 35%;
+}
+
+.projects{
+    height: 100vh;
+    text-align: center;
+    margin: 0%;
+    padding: 7rem 2rem;
+    margin-bottom: 0%;
+  }
+
+h4{
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project-img{
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+}
+
+.project-tile{
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    align-items: center;
+}
+
+.contact{
+    height: 80vh;
+}
+
+h5{
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+
+.bas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.map{
+    margin-left: 8%;
+    display: block;
+    width: auto;
+    height: 40%;
+}
+.loca-img{
+    object-fit: contain;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+}
+
+form{
+    transition: all 4s ease-in-out;
+}
+
+.formu{
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 7%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0cce6b;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 7%;
+    color: white;
+}
+
+.textarea{
+    min-width: 60%;
+    max-width: 60%;
+    min-height: 27%;
+    margin-left: 25%;
+    margin-right: 7%;
+    background-color: #0cce6b;
+    border-color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+ 
+.submit{
+    border-radius: 100%;
+    font-size: 2rem;
+    font-weight: 500;
+    border-bottom: 5px solid #0cce6b;
+}
+
+/* #footer{
+    width: 100%; 
+    display: flex; 
+    justify-content: flex-start;
+    height: 20vh;
+} */
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+#foot-list{ 
+    display: flex;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.foot-l{
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.btn{
+    width: 8%;
+    line-height: 1;
+    font-size: 2rem;
+    text-align: center;
+    color: #0cce6b;
+}
+
+.up-styled{
+    margin-top: 100%;
+    line-height: 1;
+    padding: 0 40px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color:#0cce6b;
+    font-family: 'Bakbak One', cursive, sans-serif;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #0cce6b;
+}
+
+.foot-l > p{
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+
+/* .foot-r{
+    width: 50%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20%;
+} */
+
